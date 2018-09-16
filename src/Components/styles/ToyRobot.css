@@ -1,0 +1,56 @@
+.toy-robot {
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.toy-robot-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.toy-robot-image.EAST {
+    transform: rotate(270deg);
+    transition: 1s ease-in-out;
+}
+
+.toy-robot-image.WEST {
+    transform: rotate(90deg);
+    transition: 1s ease-in-out;
+}
+
+.toy-robot-image.NORTH {
+    transform: rotate(180deg);
+    transition: 1s ease-in-out;
+}
+
+.toy-robot-image.SOUTH {
+    transform: rotate(0deg);
+    transition: 1s ease-in-out;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #cccccc;
+    border-radius: .4em;
+    top: -100px;
+    z-index: 5;
+    padding: 10px;     
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 17px solid transparent;
+	border-top-color: #cccccc;
+	border-bottom: 0;
+	margin-left: -17px;
+	margin-bottom: -17px;
+}

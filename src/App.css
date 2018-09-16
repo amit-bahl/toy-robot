@@ -1,0 +1,17 @@
+.App-Container {
+  height: 100vh;
+}
+
+.action-btn {
+  margin: 0 5px;
+}
+
+.command-input {
+  margin: 20px 50px 0;
+}
+
+.command-error {
+  color: red;
+  margin: 10px 0 0 0;
+}
+

@@ -113,7 +113,7 @@ class Simulator extends Component {
             <ToyBoard width={boardWidth} height={boardHeight} position={position}>
                 <ToyRobot orientation={direction} report={report} position={position}/>
             </ToyBoard>
-            {this.state.showPopup?<Popup text='Select the X and Y coordinates along with the Direction to initialise the Robot.'>
+            {this.state.showPopup?<Popup text='Please select the initial values:'>
                 <form onSubmit={this.initialiseRobot}>
                     <div className='input-container'>X coordinate value: 
                         <select required ref={(input) => { this.xcoordinate = input }}>

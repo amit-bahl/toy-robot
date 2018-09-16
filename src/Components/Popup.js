@@ -6,7 +6,7 @@ export default class Popup extends Component {
       return (
         <div className='popup'>
           <div className='popup_inner'>
-            {this.props.text}
+            <b>{this.props.text}</b>
             {this.props.children}
           </div>
           

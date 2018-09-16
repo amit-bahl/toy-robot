@@ -7,7 +7,7 @@
 }
 
 .command-input {
-  margin: 20px 50px 0;
+  margin: 20px 20px 0;
 }
 
 .command-error {
@@ -32,7 +32,6 @@
   left: 25%;
   right: 25%;
   top: 25%;
-  bottom: 25%;
   margin: auto;
   background: white;
 }

@@ -33,12 +33,13 @@
 }
 
 .speech-bubble {
-	position: relative;
-	background: #cccccc;
+    position: relative;
+    background: #cccccc;
     border-radius: .4em;
-    top: -100px;
-    z-index: 5;
-    padding: 10px;     
+    word-break: break-word;
+    top: -70%;
+    width: 100%;
+    z-index: 10000;  
 }
 
 .speech-bubble:after {

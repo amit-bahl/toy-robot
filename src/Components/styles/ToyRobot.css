@@ -1,5 +1,6 @@
 .toy-robot {
     height: 100%;
+    width: 100%;
     text-align: center;
     position: relative;
 }
@@ -13,25 +14,25 @@
 }
 
 .toy-robot-image.E {
-    background: url('../e.png') no-repeat center;
+    background: url('../images/e.png') no-repeat center;
     background-size: 100%;
     background-size: contain;
 }
 
 .toy-robot-image.W {
-    background: url('../w.png') no-repeat center;
+    background: url('../images/w.png') no-repeat center;
     background-size: 100%;
     background-size: contain;
 }
 
 .toy-robot-image.N {
-    background: url('../n.png') no-repeat center;
+    background: url('../images/n.png') no-repeat center;
     background-size: 100%;
     background-size: contain;
 }
 
 .toy-robot-image.S {
-    background: url('../s.png') no-repeat center;
+    background: url('../images/s.png') no-repeat center;
     background-size: 100%;
     background-size: contain;
 }
@@ -41,8 +42,9 @@
     background: #cccccc;
     border-radius: .4em;
     word-break: break-word;
-    top: -40px;
+    top: -90px;
     width: 100%;
+    color: black;
     z-index: 10000;  
 }
 

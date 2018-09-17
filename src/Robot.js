@@ -99,7 +99,6 @@ function Robot() {
       }
       return x + " " + y + " " + intToFace[face];
     }
-  
     /* Takes an array of instructions, and returns an array of outputs
         This is the only public function of this module
         - Instruction are of the form "MOVE" or "PLACE 0 0 N"

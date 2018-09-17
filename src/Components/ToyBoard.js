@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import styles from './styles/ToyBoard.css'
+
+  /** Dumb component which creates a grid of MXN size squares based on the props and places the robot*/
 class ToyBoard extends Component {
 
     constructor(props) {
@@ -30,7 +32,7 @@ class ToyBoard extends Component {
     }
 
     render() {
-        let board = this._generateBoard()
+        let board = this._generateBoard();
         return <div className='grid'>
             {board}
         </div>

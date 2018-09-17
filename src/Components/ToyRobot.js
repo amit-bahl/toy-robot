@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import styles from './styles/ToyRobot.css'
+
+  /** Dumb Components which shows the robot using the orientation props*/
 class ToyRobot extends Component {
     
     render() {

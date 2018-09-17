@@ -1,0 +1,1 @@
+export const DATA_TOOLTIP = "<b>Sample Commands</b><br/>Place X Y F</br>Move </br>Report </br>Left </br>Right </br>"

@@ -1,18 +1,19 @@
-.App-Header {
-  background-color: black;
-  color: white;
-}
-
-.App-Sidebar {
+.app-sidebar {
   border-right: 1px solid #D3D3D3;
 }
 
-.App-Container {
+.app-container {
   height: 90vh;
   display: flex;
 }
 
-.Output-Component > pre{
+.output-component > pre{
   background-color: 	#D3D3D3;
   border-radius: 2px;
+}
+
+.info-icon {
+  height: 12px;
+  width: 12px;
+  margin-bottom: 3px;
 }

@@ -8,10 +8,6 @@
     padding-top: 20px;
 }
 
-.row {
-    display: flex;
-}
-
 .box {
     background: rgb(250, 195, 100);
     margin: 1px;

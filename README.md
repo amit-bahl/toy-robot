@@ -17,7 +17,7 @@
 2. Created two approaches (a) Run All - This will run all input in one go (b) Run Step - On click it will run stepwise on the input provided
 3. Have created basic error checks (a) If the input is wrong (b) Don’t execute the steps that allow the robot to fall from the grid
 
-##Future Improvements
+## Future Improvements
 
 1. Add animation
 2. Can have buttons for the {Left, Right, Move}, {Initialise, Restart}, Report for easy navigation

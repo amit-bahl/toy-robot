@@ -41,7 +41,7 @@
     background: #cccccc;
     border-radius: .4em;
     word-break: break-word;
-    top: -70%;
+    top: -40px;
     width: 100%;
     z-index: 10000;  
 }

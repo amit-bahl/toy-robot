@@ -12,7 +12,7 @@ class RobotContainer extends Component {
       "x": 0,
       "y": 0,
       "f": "U",
-      "output": "0 0 N",
+      "output": [],
       report: false
     }
   }
@@ -27,8 +27,6 @@ class RobotContainer extends Component {
       output = err.message;
     }
 
-    console.log(output)
-
     let coords = this.robot.getCoordinates();
 
     this.setState({
@@ -38,10 +36,15 @@ class RobotContainer extends Component {
       "output": output
     });
   }
+  
   render() {
+      let errorMessage = ''
+      if(typeof(this.state.output)=='string') {
+          errorMessage = this.state.output
+      }
     return (
       <div className='App-Container'>
-        <InputComponent runProgramCallback={this.runProgram}/>
+        <InputComponent runProgramCallback={this.runProgram} error={errorMessage}/>
         <ToyBoard width={5} height={5} position={[this.state.x, this.state.y]}>
             <ToyRobot orientation={this.state.f} report={this.state.output.length>0} position={[this.state.x, this.state.y]}/>
         </ToyBoard>

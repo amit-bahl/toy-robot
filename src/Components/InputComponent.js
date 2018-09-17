@@ -19,13 +19,14 @@ class InputComponent extends Component {
 
   render() {
     return (
-      <div>
+      <div className='Input-Component'>
         <h2>Input</h2>
         <textarea rows="8" cols="40" value={this.state.value} onChange={this.handleChange}>
         </textarea>
         <div>
             <button type="button" onClick={this.handleSubmit}>Go!</button>
         </div>
+        <div className="error-message">{this.props.error}</div>
       </div>
     );
   }

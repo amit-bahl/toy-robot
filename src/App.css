@@ -7,13 +7,13 @@
   display: flex;
 }
 
-.output-component > pre{
-  background-color: 	#D3D3D3;
+.output-component > pre {
+  background-color: #D3D3D3;
   border-radius: 2px;
 }
 
 .info-icon {
-  height: 12px;
-  width: 12px;
+  height: 15px;
+  width: 15px;
   margin-bottom: 3px;
 }

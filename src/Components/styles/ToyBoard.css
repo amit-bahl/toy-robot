@@ -19,12 +19,12 @@
 
 .box:after {
     content: "";
-    float:left;
+    float: left;
     display: block;
     padding-top: 100%;
 }
 
-.box .inner {
+.box .cell-container {
     position: absolute;
     left: 0;
     right: 0;

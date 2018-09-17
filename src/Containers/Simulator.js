@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import ToyBoard from '../Components/ToyBoard';
 import ToyRobot from '../Components/ToyRobot';
-import InputComponent from '../Components/InputComponent.js';
-import OutputComponent from '../Components/OutputComponent.js';
-import Robot from "../Robot.js";
-import { GRID_HEIGHT, GRID_WIDTH } from "../constants";
+import InputComponent from '../Components/InputComponent';
+import OutputComponent from '../Components/OutputComponent';
+import Robot from "../Robot";
+import { GRID_HEIGHT, GRID_WIDTH } from "../Constants";
 
 /**
  * Smart Component where all the application logic executed and the application state is maintained.

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactTooltip from 'react-tooltip'
 import image from './images/tooltip.png'
-import { DATA_TOOLTIP } from '../constants'
+import { DATA_TOOLTIP } from '../Constants'
 
 /** 
  * Input component which takes input from the user and passed it to the parent using callbacks.
